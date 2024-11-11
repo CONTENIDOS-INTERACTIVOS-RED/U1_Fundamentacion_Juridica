@@ -12,20 +12,30 @@
 .brounded-sm
   border-radius: 8px !important
 
+
+.box-shadow
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+  border: 2px solid rgba(0,0,0,0.1)
+
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+
+
 .bg-color
   &-1
-    background-color: #EDFEFA
+    background-color: #E5F0F6
   &-2
-    background-color: #FEEDEB
+    background-color: #F7F4ED
   &-3
-    background-color: #FDF9F3
+    background-color: #FCFAEB
   &-4
-    background-color: #E6F0F6
-
+    background-color: #EEF0F3
   &-5
-    background-color: #FFFBE8
+    background-color: #FDFCF5
   &-6
-    background-color: #FBE7E4
+    background-color: #BDE1F8
+    
   &-7
     background-color: #FEFAF3
   &-8
@@ -98,13 +108,13 @@ $custom-card-img-height: 322px
     object-fit: cover
 
 .acordion__header
-  background-color: #E6F0F6 !important
+  background-color: #FFF !important
 
 .acordion__header--active
-  background-color: #5CFBD4 !important
+  background-color: #F5EEC2 !important
 
 .acordion__contenido
-  background-color: #EDFEFA !important
+  background-color: #FBF6DB !important
 
 
 .anexo__texto
@@ -133,15 +143,6 @@ $custom-card-img-height: 322px
 .bg-red-claro
   background-color: #FCDFDB !important
 
-
-.box-shadow
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1)
-  border: 2px solid rgba(0,0,0,0.1)
-
-.shadow
-  &-soft
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
-
 .rounded-8px
   border-radius: 8px !important 
 
@@ -155,7 +156,7 @@ $custom-card-img-height: 322px
   inline-size: auto
 
 .tabs-content
-  background-color: #FDF9F3
+  background-color: #F3F3F3
 
 .material-complementario
   padding-top: 3rem
@@ -170,10 +171,12 @@ $custom-card-img-height: 322px
   @media screen and (max-width: $bp-max-sm)
     width: 38px !important
   
+.text-small
+  font-size: 0.9em !important
 
 .img-infografica__item__dot:before, .img-infografica-b__item__dot:before
   opacity: 1
-  border: 2px solid #FEFAF3
+  border: 0px solid #FEFAF3
   background-color: #F8BC17
 
 .img-infografica__card, .img-infografica-b__card

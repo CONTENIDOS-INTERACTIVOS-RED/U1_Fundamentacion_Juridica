@@ -35,14 +35,27 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'Unidad 1.',
         numero: '1.',
-        titulo: 'Conceptos de paz y cultura de paz',
+        titulo: 'Definición del Derecho',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Fundamentos de Dibujo Técnico',
+            titulo: 'Concepto del Derecho',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Finalidades del Derecho',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Características del Derecho y el problema de su definición',
+            hash: 't_1_3',
           },
         ],
       },
@@ -51,31 +64,31 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'Unidad 1.',
         numero: '2.',
-        titulo: 'Conceptos básicos de dibujo técnico',
+        titulo: 'Fuentes del Derecho',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Uso de escalas y proporciones',
+            titulo: 'La Jurisprudencia',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Incluir información sobre materiales y procesos',
+            titulo: 'La doctrina',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Aplicaciones del dibujo técnico',
+            titulo: 'Principios generales del derecho',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Herramientas y software',
+            titulo: 'Las fuentes del Derecho en Colombia',
             hash: 't_2_4',
           },
         ],
@@ -85,38 +98,20 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'Unidad 1.',
         numero: '3.',
-        titulo: 'Factores estructurales y dinámicas de poder',
+        titulo: 'Clasificación del Derecho',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Tipos de líneas',
+            titulo: 'Derecho Público',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Proyecciones ortogonales',
+            titulo: 'Derecho Privado',
             hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Vistas principales',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Organización de las vistas',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Dimensiones y cotas',
-            hash: 't_3_5',
           },
         ],
       },
@@ -170,81 +165,85 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Méndez, G. (2017). Dibujo Técnico.',
-      link:
-        'https://teoriadeldibujotecnico.wordpress.com/2017/08/09/vistas-de-un-objeto/',
-    },
-    {
-      referencia:
-        'Universidad Nacional de San Juan. (2020). Dibujo y sistemas de representación. ',
-      link:
-        'https://dibujoysistemas.fi.unsj.edu.ar/wp-content/uploads/08-UVIII-VISTAS-AUXILIARES-CIV-2020.pdf',
+      referencia: '',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Comunicación',
+      termino: 'Constitución',
       significado:
-        'proceso de transmitir ideas y diseños de manera clara y precisa.',
+        'norma suprema que organiza el poder del Estado y establece los derechos y deberes de los ciudadanos.',
     },
     {
-      termino: 'Dibujo técnico',
+      termino: 'Convivencia',
       significado:
-        'representación gráfica de objetos, sistemas y estructuras, utilizada para comunicar información precisa en ingeniería y otras disciplinas técnicas.',
+        'relación de interacción social regulada por normas que buscan mantener el orden y la justicia en la sociedad.',
     },
     {
-      termino: 'Escalas',
+      termino: 'Coercibilidad',
       significado:
-        'relaciones proporcionales entre las dimensiones de un objeto real y su representación en un dibujo.',
+        'característica del Derecho que permite su imposición mediante la fuerza en caso de incumplimiento.',
     },
     {
-      termino: 'Línea continua',
+      termino: 'Costumbre',
       significado:
-        'tipo de línea que representa contornos visibles de objetos.',
+        'fuente de Derecho basada en prácticas reiteradas y aceptadas por una comunidad que regulan conductas sin la necesidad de intervención estatal.',
     },
     {
-      termino: 'Línea de Cota',
+      termino: 'Derecho',
       significado:
-        'línea que muestra medidas y dimensiones, incluyendo flechas y textos explicativos.',
+        'conjunto de normas, principios y valores que rigen las relaciones entre individuos e instituciones para mantener el orden, la justicia y la paz social.',
     },
     {
-      termino: 'Línea discontinua',
-      significado: 'línea que indica contornos invisibles o bordes ocultos.',
+      termino: 'Derecho público',
+      significado:
+        'conjunto de normas que rigen la actividad del Estado y las relaciones entre el Estado y los ciudadanos.',
     },
     {
-      termino: 'Normas ISO',
+      termino: 'Derecho privado',
       significado:
-        'conjunto de estándares internacionales que regulan la representación y calidad en el dibujo técnico.',
+        'conjunto de normas que regulan las relaciones entre particulares en sus intereses individuales.',
     },
     {
-      termino: 'Precisión',
+      termino: 'Doctrina',
       significado:
-        'grado en el que las dimensiones y detalles de un dibujo son exactos y sin errores.',
+        'opiniones y estudios de juristas que sirven como referencia para interpretar y mejorar el sistema jurídico.',
     },
     {
-      termino: 'Proporciones',
+      termino: 'Equidad',
       significado:
-        'relación entre las dimensiones de diferentes partes de un objeto para asegurar coherencia en el diseño.',
+        'principio que ajusta la aplicación de las normas jurídicas a las circunstancias particulares de cada caso para asegurar justicia.',
     },
     {
-      termino: 'Proyecciones auxiliares',
+      termino: 'Jurisprudencia',
       significado:
-        'vistas adicionales utilizadas para mostrar características que no son evidentes en las vistas principales.',
+        'interpretación de la ley que hacen los tribunales al aplicar la norma en casos concretos, estableciendo precedentes obligatorios.',
     },
     {
-      termino: 'Proyecciones ortogonales',
+      termino: 'Justicia',
       significado:
-        'método de representación gráfica que muestra un objeto en varias vistas bidimensionales, manteniendo las dimensiones reales.',
+        'finalidad del Derecho que busca que cada persona reciba lo que le corresponde según sus actos y circunstancias.',
     },
     {
-      termino: 'Símbolos estandarizados',
+      termino: 'Moral',
       significado:
-        'representaciones gráficas convencionales que facilitan la interpretación universal de los planos.',
+        'conjunto de normas de conducta que cada persona sigue de acuerdo con sus valores y principios, sin ser coercitiva.',
     },
     {
-      termino: 'Software CAD',
+      termino: 'Normas',
       significado:
-        'programas de diseño asistido por computadora utilizados para crear y modificar dibujos técnicos',
+        'reglas establecidas por el Derecho que determinan lo permitido y lo prohibido en la conducta social.',
+    },
+    {
+      termino: 'Principios generales del derecho',
+      significado:
+        'criterios abstractos que informan el ordenamiento jurídico y suplen la falta de regulación en casos específicos.',
+    },
+    {
+      termino: 'Seguridad jurídica',
+      significado:
+        'certeza de los ciudadanos sobre las normas que rigen su conducta y las consecuencias de su aplicación.',
     },
   ],
   complementario: [

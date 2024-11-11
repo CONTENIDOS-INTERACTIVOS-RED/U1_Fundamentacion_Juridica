@@ -1,32 +1,57 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(:titulo="'unidad 1: FUNDAMENTOS DEL DIBUJO TÉCNICO'" :subTitulo="'INTRODUCCIÓN'")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      p.mb-4(data-aos="fade-up") #[strong Bienvenidos a la Unidad 1 del curso de Dibujo Industrial.] En esta unidad, los estudiantes explorarán los conceptos fundamentales del dibujo técnico, una herramienta esencial para comunicar ideas de diseño de manera precisa y estandarizada en el ámbito de la ingeniería y la industria. ¡Que comience este fascinante recorrido por el mundo del dibujo técnico!
-  
+div.curso-main-container.pb-3
+  BannerInterno(
+    :titulo="'Unidad 1. FUNDAMENTACIÓN JURÍDICA'"
+    :subTitulo="'INTRODUCCIÓN'"
+  )
+  div.container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+    div.row.justify-content-center.align-items-center.mb-4
+      div.col-lg-7
+        p.mb-4(data-aos="fade-up") Desde los inicios de la humanidad, las reglas han sido un elemento fundamental para el desarrollo de las sociedades. El Derecho, en este contexto, se presenta como una herramienta indispensable para el buen funcionamiento de la convivencia. En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
 
-      .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-4.mb-4(data-aos="zoom-in-up")
-            .custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/1.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Importancia del dibujo técnico
-                p.mb-0 El dibujo técnico actúa como un lenguaje universal que facilita la comprensión y desarrollo de proyectos complejos entre profesionales de distintas áreas, permitiendo una comunicación precisa.
-          .col-lg-4.mb-4(data-aos="zoom-in-down")
-            .custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/2.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Contenidos de la unidad
-                p.mb-0 La unidad abarca la creación de planos, la aplicación de normativas internacionales y el uso de software especializado, lo que garantiza una representación clara de objetos y estructuras.
-          .col-lg-4.mb-4(data-aos="zoom-in-down")
-            .custom-image-card.h-100
-              img.custom-image-card__image(src="@/assets/curso/tema2/3.png" alt="")
-              .custom-image-card__text.p-4
-                h5.mb-2.text-center Desarrollo de habilidades prácticas
-                p.mb-0 A través de ejercicios prácticos y teoría, los participantes adquieren las competencias necesarias para realizar dibujos técnicos que cumplan con altos estándares de calidad, aplicables en la elaboración de planos y esquemas.
-  
-  </template>
+        
+      div.col-lg-5
+        figure
+          img(
+            src="@/assets/curso/intro/1.png"
+            alt=""
+            style="width: 100%"
+          )
+
+    p.mb-4(data-aos="fade-up") Los objetivos de la unidad son:
+    div.row.justify-content-center.align-items-stretch.mb-5
+      div.col-lg-4.mb-4(data-aos="zoom-in-up")
+        div.bg-color-white.box-shadow.px-4.py-5.h-100
+          img.mx-auto.d-block.mb-4(
+            src="@/assets/curso/intro/2.svg"
+            alt=""
+            style="width: 90px"
+          )
+          p.mb-0.text-center Proporcionar al estudiante una comprensión inicial sobre qué es el derecho y su importancia en la sociedad.
+      
+      div.col-lg-4.mb-4(data-aos="zoom-in-up")
+        div.bg-color-white.box-shadow.px-4.py-5.h-100
+          img.mx-auto.d-block.mb-4(
+            src="@/assets/curso/intro/2.svg"
+            alt=""
+            style="width: 90px"
+          )
+          p.mb-0.text-center Proporcionar al estudiante una comprensión inicial sobre qué es el derecho y su importancia en la sociedad.
+      
+      div.col-lg-4.mb-4(data-aos="zoom-in-up")
+        div.bg-color-white.box-shadow.px-4.py-5.h-100
+          img.mx-auto.d-block.mb-4(
+            src="@/assets/curso/intro/2.svg"
+            alt=""
+            style="width: 90px"
+          )
+          p.mb-0.text-center Proporcionar al estudiante una comprensión inicial sobre qué es el derecho y su importancia en la sociedad.
+
+    div.row.justify-content-center.align-items-center.mb-5
+      div.col-lg-8
+        div.bg-color-1.p-4
+          p.mb-0(data-aos="fade-up") ¡Recuerden que el conocimiento del Derecho es una herramienta poderosa para transformar el entorno y promover el bienestar colectivo!
+</template>
 
 <script>
 export default {
