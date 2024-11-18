@@ -194,7 +194,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/15.png', alt='')
 
-    .bg-color-1.p-4
+    .bg-color-1.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-auto
           figure
