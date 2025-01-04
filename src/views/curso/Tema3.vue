@@ -157,7 +157,7 @@
         .row
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
             h4 Derecho comercial
-            p Comprende las normas que se aplican a los actos de comercio, las empresas y las relaciones comerciales. Se originó en la actividad de los comerciantes y ha evolucionado para regular los “actos de comercio”. Regula actividades de comerciantes y operaciones como transporte, seguros y títulos de crédito (letras, cheques, pagarés). Establece el marco para transacciones comerciales y la organización de empresas, facilitando la actividad económica y protegiendo a las partes en estas relaciones.
+            p Comprende las normas que se aplican a los actos de comercio, las empresas y las relaciones comerciales. Se originó en la actividad de los comerciantes y ha evolucionado para regular los "actos de comercio". Regula actividades de comerciantes y operaciones como transporte, seguros y títulos de crédito (letras, cheques, pagarés). Establece el marco para transacciones comerciales y la organización de empresas, facilitando la actividad económica y protegiendo a las partes en estas relaciones.
           .col-md-6.col-lg-5.col-xl-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema3/12.png', alt='')
@@ -177,6 +177,11 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/14.svg', alt='', style="width: 120px;")
     
+    #t_3_3.titulo-segundo
+      h2 #[span 3.3]  Derecho Internacional
+
+    p(data-aos="fade-up").mb-5 La globalización y la creación de autoridades supranacionales han llevado a algunos autores a proponer una nueva clasificación del derecho que incluye el derecho internacional, ampliando su alcance más allá de las fronteras nacionales. Esta clasificación se compone de las siguientes ramas:
+
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-7 
         AcordionA(tipo="b")
@@ -202,32 +207,219 @@
         .col-lg
           p(data-aos="fade-up") La clasificación del derecho internacional en estas ramas refleja la necesidad de un marco jurídico que abarque tanto las relaciones entre Estados como la protección de los derechos individuales a nivel global. Cada una de estas ramas responde a una faceta de la interacción internacional, desde la cooperación entre Estados y la protección de los derechos humanos, hasta la regulación de situaciones específicas como los conflictos armados y los crímenes internacionales.  
 
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
     .bg-full-width.border-top.color-primario
-      .px-4.p-md-5
+      .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
-        .row
+        .row.material-complementario
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/123161" target="_blank" rel="noopener noreferrer") Fernadez I. (2017) Manual de fundamentos del derecho público y privado. Editorial tecnos. 
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
+              a(href="https://www.euroinnova.com/blog/latam/diferencia-entre-derecho-publico-y-derecho-privado" target="_blank" rel="noopener noreferrer") Euroinnova. (16 de mayo de 2023) Diferencias entre derecho público y privado.
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Nieto, A. (2019). Una introducción al derecho.
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/123141" target="_blank" rel="noopener noreferrer") Carrasco Perera, Á. & González Carrasco, M. D. C. (2018). Introducción al Derecho y fundamentos de Derecho privado: (2 ed.). Difusora Larousse - Editorial Tecnos. 
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Clasificación del Derecho',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto: '¿Qué característica diferencia al Derecho de la moral?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Su aplicación en la vida social',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Su coercibilidad, o posibilidad de imponerse por la fuerza',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Su relación con los valores',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Su capacidad para regular conductas',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál es el papel de la jurisprudencia en el sistema colombiano?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Crear normas nuevas',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Interpretar y guiar la aplicación de la ley en casos similares',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Regular solo las relaciones políticas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Definir las normas de conducta social',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto: '¿Qué es la seguridad jurídica?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'El derecho a realizar cualquier acto sin restricciones',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'La certeza de que las normas serán claras y estables',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La protección exclusiva de los derechos individuales',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'La garantía de que el Estado actuará sin restricciones',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: 'La doctrina se refiere a:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Normas creadas por el Congreso',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Opiniones y estudios de juristas para interpretar el Derecho',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Costumbres que regulan conductas sociales',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Reglas establecidas exclusivamente para jueces',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              'Según el artículo 230 de la Constitución de Colombia, los jueces deben guiarse principalmente por:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La equidad',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'La ley',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La costumbre',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Los principios morales',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
 }
 </script>
 

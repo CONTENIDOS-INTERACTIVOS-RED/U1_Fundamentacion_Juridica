@@ -166,32 +166,32 @@ export default {
   referencias: [
     {
       referencia:
-        'Atienza, M. (2013). Curso de argumentación jurídica: (1 ed.). Editorial Trotta, S.A.',
+        'Atienza, M. (2013). <em>Curso de argumentación jurídica</em>: (1 ed.). Editorial Trotta, S.A.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61319',
     },
     {
       referencia:
-        'Carrasco Perera, Á. & González Carrasco, M. D. C. (2018). Introducción al Derecho y fundamentos de Derecho privado: (2 ed.). Difusora Larousse - Editorial Tecnos.',
+        'Carrasco Perera, Á. & González Carrasco, M. D. C. (2018). <em>Introducción al Derecho y fundamentos de Derecho privado</em>: (2 ed.). Difusora Larousse - Editorial Tecnos.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/123141',
     },
     {
       referencia:
-        'Carretero Sanchez, S. (2015). Nueva introducción a la teoría del derecho: (1 ed.). Dykinson.',
+        'Carretero Sanchez, S. (2015). <em>Nueva introducción a la teoría del derecho</em>: (1 ed.). Dykinson.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/60943',
     },
     {
       referencia:
-        'González Jácome, J. (2009). El problema de las fuentes del derecho: una perspectiva desde la argumentación jurídica: (1 ed.). Red Vniversitas.',
+        'González Jácome, J. (2009). <em>El problema de las fuentes del derecho</em>: una perspectiva desde la argumentación jurídica</em>: (1 ed.). Red Vniversitas.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/32739',
     },
     {
       referencia:
-        'Hernandez Quintero, H. A. Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). Lecciones de introducción al derecho: (1 ed.). Universidad de Ibagué.',
+        'Hernandez Quintero, H. A. Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). <em>Lecciones de introducción al derecho</em>: (1 ed.). Universidad de Ibagué.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70168',
     },
     {
       referencia:
-        'Lorca Martín de Villodres, M. I. (2017). El concepto de derecho de un siglo: su perspectiva iusfilosófica: (1 ed.). Dykinson.',
+        'Lorca Martín de Villodres, M. I. (2017). <em>El concepto de derecho de un siglo</em>: su perspectiva iusfilosófica</em>: (1 ed.). Dykinson.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58832',
     },
   ],

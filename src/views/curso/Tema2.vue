@@ -19,10 +19,10 @@
     p.mb-4(data-aos="fade-up") Las fuentes del derecho se clasifican en tres categorías principales:
     
     TabsC.color-primario.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Fuentes historicas" :icon="require('@/assets/bullets/icon-tab-c.svg')" )
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Fuentes históricas" :icon="require('@/assets/bullets/icon-tab-c.svg')" )
         .row
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-            h4 Fuentes historicas
+            h4 Fuentes históricas
             p Son documentos y registros antiguos que reflejan la forma en que las sociedades se organizaban y normaban. Ejemplos incluyen el Código de Hammurabi y la Declaración de los Derechos del Hombre y del Ciudadano de 1789. Estas fuentes sirven de referencia para la creación de nuevas leyes.
         
           .col-md-6.col-lg-5.col-xl-4
@@ -42,7 +42,7 @@
         .row
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
             h4 Fuentes materiales (o reales)
-            p Se refieren a los hechos o eventos sociales que motivan la creación de normas jurídicas. Incluyen elementos como las necesidades sociales y las circunstancias históricas que influyen en el contenido de las leyes.Se refieren a los hechos o eventos sociales que motivan la creación de normas jurídicas. Incluyen elementos como las necesidades sociales y las circunstancias históricas que influyen en el contenido de las leyes.       
+            p Se refieren a los hechos o eventos sociales que motivan la creación de normas jurídicas. Incluyen elementos como las necesidades sociales y las circunstancias históricas que influyen en el contenido de las leyes.
           .col-md-6.col-lg-5.col-xl-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/4.png', alt='', style="width: 100%;")
@@ -58,7 +58,7 @@
 
             p(data-aos="fade-up") Lo invitamos a consultar el documento La ley, para profundizar en aspectos relacionados con su definición, la ley en el sistema jurídico, Importancia y preeminencia de la ley.
             
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -216,7 +216,7 @@
       .col-lg-7
         AcordionA(tipo="b")
           .div(titulo="Jurisprudencia")
-            p Se refieren a los hechos y circunstancias que originan la creación del derecho, como los contextos sociales, económicos y políticos, es decir, la realidad misma. Estas fuentes reflejan las necesidades y situaciones específicas de la sociedad que requieren regulación.
+            p Se refiere a las decisiones adoptadas por los jueces y tribunales. Aunque se considera un criterio auxiliar, la jurisprudencia tiene un impacto significativo en la interpretación de las normas y puede adquirir fuerza vinculante.
           .div(titulo="Costumbre")
             p Aunque no está explícitamente incluida en la expresión “ley” del artículo 230 de la Constitución, la costumbre es reconocida como una forma de regulación en el derecho colombiano. Su valor se sustenta en su aceptación por parte de la comunidad y su relevancia en ciertos contextos, como las comunidades indígenas.
           .div(titulo="Equidad")
@@ -256,23 +256,25 @@
             p(data-aos="fade-up").text-small Las fuentes del derecho tanto materiales como formales, son fundamentales para entender la estructura y funcionamiento del sistema jurídico colombiano. Mientras que la ley tiene un papel preeminente, la jurisprudencia, la costumbre, la doctrina y los principios generales del derecho actúan como recursos complementarios que enriquecen la interpretación y aplicación de las normas. La Constitución, por su parte, guía todo el sistema jurídico, asegurando la coherencia y la justicia en la creación y aplicación de las normas.
 
     .bg-full-width.border-top.color-primario
-      .px-4.p-md-5
+      .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
-        .row
+        .row.material-complementario
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
+              a(href="https://www.uic.mx/que-son-las-fuentes-del-derecho/" target="_blank" rel="noopener noreferrer") Universidad intercontinental (10 de mayo de 2023).¿ Qué son las fuentes del derecho?
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/63109" target="_blank" rel="noopener noreferrer") Barranco, A. (2011) Perspectivas actuales de las fuentes de derecho. Editorial Dykinson.  
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Nieto, A. (2019). Una introducción al derecho.
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/32739" target="_blank" rel="noopener noreferrer") González Jácome, J. (2009). El problema de las fuentes del derecho: una perspectiva desde la argumentación jurídica: ( ed.). Red Vniversitas.
+
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')

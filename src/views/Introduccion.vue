@@ -36,7 +36,7 @@ div.curso-main-container.pb-3
             alt=""
             style="width: 90px"
           )
-          p.mb-0.text-center Proporcionar al estudiante una comprensión inicial sobre qué es el derecho y su importancia en la sociedad.
+          p.mb-0.text-center Conocer las fuentes de las normas jurídicas, como la ley, la jurisprudencia y la costumbre.
       
       div.col-lg-4.mb-4(data-aos="zoom-in-up")
         div.bg-color-white.box-shadow.px-4.py-5.h-100
@@ -45,7 +45,8 @@ div.curso-main-container.pb-3
             alt=""
             style="width: 90px"
           )
-          p.mb-0.text-center Proporcionar al estudiante una comprensión inicial sobre qué es el derecho y su importancia en la sociedad.
+          p.mb-0.text-center Analizar las principales ramas del derecho, como el derecho civil, penal, administrativo y constitucional.
+
 
     div.row.justify-content-center.align-items-center.mb-5
       div.col-lg-8

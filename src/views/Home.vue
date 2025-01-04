@@ -20,11 +20,10 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title FUNDAMENTACIÓN JURÍDICA
-              h1.home-title.mb-4.text-uppercase INTRODUCCIÓN AL DERECHO Y SUS FUENTES
-              p.descripcion.mb-4 En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
+              p.home-main-title UNIDAD 1
+              h1.home-title.mb-4.text-uppercase Introducción al Derecho y sus fuentes
+              p.descripcion.mb-4 Esta unidad explora los orígenes, funciones y clasificaciones del Derecho, resaltando su papel en la organización social. Se abordan las principales fuentes del Derecho en Colombia, como la ley, la costumbre y la jurisprudencia. A través de esta base teórica, los estudiantes comprenden la relevancia de un sistema normativo justo y estructurado para el orden social.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para afrontar los retos del trabajo virtual con confianza y eficacia!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

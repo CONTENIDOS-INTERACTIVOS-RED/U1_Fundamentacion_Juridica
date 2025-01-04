@@ -187,7 +187,7 @@
           .div(titulo="Desde la argumentación")
             p Un sistema de normas que se expresan a través del lenguaje y que son formuladas por el legislador.
 
-        p(data-aos="fade-up").mb-4 Estas aproximaciones permiten entender la amplitud del concepto de derecho y su papel esencial en la organización y regulación de la vida en sociedad
+        p(data-aos="fade-up").mb-4 Estas aproximaciones permiten entender la amplitud del concepto de derecho y su papel esencial en la organización y regulación de la vida en sociedad.
       .col-lg-5
         figure
           img(src='@/assets/curso/tema1/12.png', alt='')
@@ -218,9 +218,9 @@
                   h5 Bien común
                   p Se orienta al bienestar general de la sociedad, equilibrando intereses individuales y colectivos, y asegurando el acceso equitativo a oportunidades y beneficios. El bien común se define como el conjunto de condiciones sociales que permiten a las personas alcanzar su destino natural y espiritual, incluyendo la abundancia para el sustento corporal, la paz y la virtud para el alma, que deben ser objetivos de la acción gubernamental.
 
-                .bg-color-6.p-3(x="88%" y="81%" numero="+")
-                  h5 Orden social
-                  p Contribuye al orden social mediante un conjunto de normas que regulan la conducta de las personas, evitando conflictos innecesarios. Por ejemplo, las leyes de tránsito organizan el comportamiento de los conductores para prevenir accidentes, manteniendo la armonía y seguridad en la vía pública.
+                .bg-color-6.p-3(x="88%" y="81%" numero="4")
+                  h5 Seguridad jurídica
+                  p Responde a la necesidad de un régimen estable y a la eliminación de la arbitrariedad, mediante normas claras y un cumplimiento garantizado. Se enfoca en la protección de la persona, sus bienes y derechos frente a agresiones, ofreciendo protección y reparación en caso de ser necesario. Las normas deben ser estables y predecibles, para que las personas puedan actuar con confianza y anticipar las consecuencias de sus acciones.
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -291,7 +291,7 @@
             h2.mb-4(data-aos="flip-up") ¿Sabía que la relación entre el derecho y la moral es uno de los debates más antiguos y complejos de la filosofía jurídica? 
             p.mb-4(data-aos="fade-right") A lo largo de la historia, pensadores como Kant, H.L.A. Hart, Ronald Dworkin y Robert Alexy han ofrecido diversas perspectivas sobre cómo estas dos esferas normativas se conectan y, a veces, se contraponen. Cada enfoque analiza la interacción entre las normas legales y los principios éticos, desde la separación estricta propuesta por el positivismo jurídico hasta las teorías que integran la moral en la interpretación del derecho. Los invitamos a reflexionar sobre cómo la moral y el derecho influyen en la construcción de una sociedad más justa y equitativa en el siguiente documento: 
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -302,23 +302,36 @@
               img(src='@/assets/curso/tema1/18.png', alt='')
 
     .bg-full-width.border-top.color-primario
-      .px-4.p-md-5
+      .p-4.p-md-5
         h2 MATERIAL COMPLEMENTARIO
-        .row
+        .row.material-complementario
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116618" target="_blank" rel="noopener noreferrer") Castro C, (2017) Temas de filosofia del derecho. Corporación de estudios y publicaciones. 
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
+              a(href="https://blogs.ugto.mx/rea/clase-digital-1-concepto-y-fines-del-derecho-vers-a/" target="_blank" rel="noopener noreferrer") Universidad de Guanajuato. (14 de marzo de 2022) Concepto y fines del Derecho – Vers. A. Recursos educativos abiertos. 
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span De Sousa, M. T. (2019). Introducción al derecho. Temis 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/61319" target="_blank" rel="noopener noreferrer") Atienza, M. (2013). Curso de argumentación jurídica: ( ed.). Editorial Trotta, S.A.
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Nieto, A. (2019). Una introducción al derecho.
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/60943" target="_blank" rel="noopener noreferrer") Carretero Sanchez, S. (2015). Nueva introducción a la teoría del derecho: ( ed.). Dykinson.
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/70168" target="_blank" rel="noopener noreferrer") Hernandez Quintero, H. A. Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). Lecciones de introducción al derecho: ( ed.). Universidad de Ibagué.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/58832" target="_blank" rel="noopener noreferrer") Lorca Martín de Villodres, M. I. (2017). El concepto de derecho de un siglo: su perspectiva iusfilosófica: ( ed.). Dykinson. 
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
