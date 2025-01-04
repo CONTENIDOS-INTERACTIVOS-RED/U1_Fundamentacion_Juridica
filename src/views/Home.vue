@@ -21,7 +21,7 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
               p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Introducción al Derecho y sus fuentes
+              h1.home-title.mb-4 Introducción al Derecho y sus fuentes
               p.descripcion.mb-4 Esta unidad explora los orígenes, funciones y clasificaciones del Derecho, resaltando su papel en la organización social. Se abordan las principales fuentes del Derecho en Colombia, como la ley, la costumbre y la jurisprudencia. A través de esta base teórica, los estudiantes comprenden la relevancia de un sistema normativo justo y estructurado para el orden social.
 
 
